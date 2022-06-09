@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f02c6ada070e4d138dea1639edc2771a" Name="Diagram1">
+        <EntityTypeShape EntityType="HomeRepairModel.Auth" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Category" Width="1.5" PointX="1.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Foreman" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Kontrakt" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Photo" Width="1.5" PointX="6" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Role" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Service" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Users" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HomeRepairModel.Zayavki" Width="1.5" PointX="6" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="HomeRepairModel.FK_Auth_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Auth_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Service_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Kontrakt_Foreman" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Kontrakt_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Kontrakt_Zayavki" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Photo_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Zayavki_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="HomeRepairModel.FK_Zayavki_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
